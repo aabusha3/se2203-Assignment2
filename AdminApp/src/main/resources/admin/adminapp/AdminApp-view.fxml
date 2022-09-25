@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.adminapp.AdminAppController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#CloseApp" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Update Database" />
+            <Menu mnemonicParsing="false" text="Modify Shop" />
+            <Menu mnemonicParsing="false" text="LogIn" />
+          <Menu mnemonicParsing="false" text="About">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#AboutUs" text="About Us" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

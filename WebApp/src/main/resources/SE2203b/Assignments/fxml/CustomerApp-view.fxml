@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane fx:id="root" alignment="TOP_RIGHT" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SE2203b.Assignments.CustomerAppController">
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="close" mnemonicParsing="false"  text="Close" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Home" />
+            <Menu mnemonicParsing="false" text="Shop" />
+          <Menu mnemonicParsing="false" text="Cart" />
+          <Menu mnemonicParsing="false" text="Register" />
+            <Menu mnemonicParsing="false" text="LogIn" />
+          <Menu mnemonicParsing="false" text="About">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#AboutUs" text="About Us" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+</StackPane>
